@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="EkgGUIController">
+   <children>
+      <Button onAction="#buttonPressed" layoutX="24.0" layoutY="27.0" mnemonicParsing="false" text="Button" />
+      <Polyline fx:id="polyline" layoutX="96.0" layoutY="140.0" strokeType="INSIDE">
+        <points>
+
+        </points>
+      </Polyline>
+   </children>
+</AnchorPane>
